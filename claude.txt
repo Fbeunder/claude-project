@@ -1,8 +1,59 @@
 # Project Overzicht
-Dit project is nog in de initiële fase. Het doel en de functionaliteit zullen worden bepaald in de eerste issues.
+TaskMaster is een taakbeheertoepassing die gebruikers helpt bij het organiseren, prioriteren en bijhouden van hun dagelijkse taken en projecten. De applicatie biedt een eenvoudige maar krachtige interface voor het beheren van taken, met functies zoals deadlines, prioriteiten, categorieën en voortgangsregistratie.
+
+## Doel
+Het hoofddoel van TaskMaster is om gebruikers een efficiënte en gebruiksvriendelijke manier te bieden om hun taken te beheren, zodat ze georganiseerd blijven en hun productiviteit kunnen verhogen.
+
+## Doelgroep
+TaskMaster is gericht op:
+- Professionals die meerdere projecten en taken moeten beheren
+- Studenten die hun studie- en persoonlijke taken willen organiseren
+- Iedereen die behoefte heeft aan een eenvoudig maar effectief taakbeheersysteem
+
+## Technische Vereisten
+- Python 3.8 of hoger
+- Webinterface met HTML, CSS en JavaScript
+- SQLite database voor gegevensopslag
+- Flask webframework voor de backend
 
 # Architectuur
-De modulestructuur zal worden vastgesteld zodra de eerste requirements zijn gedefinieerd.
+De applicatie zal worden gebouwd volgens een modulaire architectuur met de volgende componenten:
+
+1. **Frontend**: Gebruikersinterface gebouwd met HTML, CSS en JavaScript
+2. **Backend**: Flask-applicatie die API-endpoints biedt voor de frontend
+3. **Database**: SQLite-database voor het opslaan van gebruikers- en taakgegevens
+4. **Authenticatie**: Module voor gebruikersregistratie en -authenticatie
+5. **Taakbeheer**: Module voor het maken, bewerken en verwijderen van taken
 
 # Modules
-Nog geen modules gedefinieerd.
+Nog geen modules geïmplementeerd. De volgende modules zullen worden ontwikkeld:
+
+## Frontend Module
+- Status: Nog niet geïmplementeerd
+- Bestandsnaam: Nog te bepalen
+- Functionaliteit: Gebruikersinterface voor de applicatie
+- Afhankelijkheid: Backend API
+
+## Backend Module
+- Status: Nog niet geïmplementeerd
+- Bestandsnaam: Nog te bepalen
+- Functionaliteit: API-endpoints en applicatielogica
+- Afhankelijkheid: Database Module, Authenticatie Module, Taakbeheer Module
+
+## Database Module
+- Status: Nog niet geïmplementeerd
+- Bestandsnaam: Nog te bepalen
+- Functionaliteit: Databaseverbinding en -operaties
+- Afhankelijkheid: Geen
+
+## Authenticatie Module
+- Status: Nog niet geïmplementeerd
+- Bestandsnaam: Nog te bepalen
+- Functionaliteit: Gebruikersregistratie en -authenticatie
+- Afhankelijkheid: Database Module
+
+## Taakbeheer Module
+- Status: Nog niet geïmplementeerd
+- Bestandsnaam: Nog te bepalen
+- Functionaliteit: CRUD-operaties voor taken
+- Afhankelijkheid: Database Module
