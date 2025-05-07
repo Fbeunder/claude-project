@@ -1,0 +1,8 @@
+# Project Overzicht
+Dit project is nog in de initiële fase. Het doel en de functionaliteit zullen worden bepaald in de eerste issues.
+
+# Architectuur
+De modulestructuur zal worden vastgesteld zodra de eerste requirements zijn gedefinieerd.
+
+# Modules
+Nog geen modules gedefinieerd.
